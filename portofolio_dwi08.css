@@ -1,0 +1,129 @@
+body {
+    font-family: 'Georgia', serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #e8f6e8;
+    color: #2f4f4f;
+}
+
+header {
+    background: #a3d9a5;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 5px solid #7bbf7b;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Arial', sans-serif;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #f4fdf4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #3d805e;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+}
+
+#tabel{
+    border: solid #bde0bd; 
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+.interest ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.Personal_Details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.Personal_Details table th, .Personal_Details table td {
+    border: 1px solid #bde0bd;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.judul {
+    background-color: #d8f3d8;
+    color: #3d805e;
+}
+
+.Personal_Details table td {
+    background-color: #f4fdf4;
+}
+
+.contact form {
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact form label {
+    font-weight: bold;
+    color: #3d805e;
+}
+
+.contact form input, .contact form textarea, .contact form button {
+    padding: 10px;
+    border: 1px solid #bde0bd;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.contact form button {
+    background: #7bbf7b;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #69a569;
+}
+
+footer {
+    background: #a3d9a5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 5px solid #7bbf7b;
+}
